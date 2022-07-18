@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aqua;
+        }
+        h1:hover {
+            color: brown;
+            background-color: blueviolet;
+            /*margin: 50px;
+            padding: 50px;
+            font-size: 50px;*/
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: blue;
+        }
+        a:visited{
+            color: chartreuse;
+        }
+        li:first-child{
+            color: blueviolet;
+        }
+        li:last-child{
+            background-color: aquamarine;
+        }
+        li:nth-child(2n){
+            color: red;
+        }
+        li:nth-child(2n+1){
+            color: indigo;
+        }
+        h3::before{
+            content: 'hello ';
+        }
+        .special::after{
+            content: " gello";
+            background-color: yellow;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">google mama</a>
+    <a href="https://www.youtube.com/channel/UCWPi4VL2oOhxbBg3gXvVbwQ">never visited
+    </a>
+    <a href="https://www.google.com/search?q=inline+and+block+elements&rlz=1C1BNSD_enBD935BD936&oq=inline+and+&aqs=chrome.0.0i512j69i57j69i59j0i512l7.3208j0j15&sourceid=chrome&ie=UTF-8">google vaigna</a>
+    <br>
+    <h3>middle size header-1</h3>
+    <h3>middle size header-2</h3>
+    <h3 class="special" >middle size header-3</h3>
+    <h3>middle size header-4</h3>
+    <h3 class="special" >middle size header-5</h3>
+    <h3 class="special" >middle size header-6</h3>
+    <ul>
+        <li>Alis</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Calia</li>
+        <li>Jalaia</li>
+        <li>Charaia</li>
+        <li>maria</li>
+        <li>faria</li>
+        <li>Jaria</li>
+    </ul>
+</body>
+</html>
